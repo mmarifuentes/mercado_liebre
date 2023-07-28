@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    color: #312f2f;
+    font-size: 12px;
+}
+nav{
+    background-color: #EAC926;
+
+}
+#compra{
+    text-align: center;
+    font-size: 12px;
+    
+}
+.hambur{
+    background-color: #03264C;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 12%;
+}
+#titulares{
+    font-size: 24px;
+}
+#precio{
+    font-size:18px ;
+}
+#descuento{
+    font-size:16px
+}
+#descripcion{
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+.tarjeta{
+    color: #03264C;
+    line-height: 15px;
+    font-size: 1cm;
+}
+.tienda{
+    color:#03264C ;
+    line-height: 10px;
+    font-size: 1cm;
+}
+.seguridad{
+    color: #03264C;
+    line-height: 20px;
+    font-size: 1cm;
+}
+
