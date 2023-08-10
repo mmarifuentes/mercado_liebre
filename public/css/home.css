@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -21,6 +22,7 @@ nav{
     font-size: 20px;
     padding: 6px;
     border-radius: 12%;
+    display: none;
 }
 #titulares{
     font-size: 20px;
@@ -28,39 +30,44 @@ nav{
 }
 #precio{
     font-size:18px ;
+   
     
 }
 #descuento{
     font-size:14px;
     color: #39b54a;
+   
 }
 #descripcion{
     font-size: 16px;
     margin-top: 15px;
+
 }
-footer{
+
+/*footer{
     background-color: white;
     text-align: center;
     font-size: 12px;
+}*/
+footer{
+    background-color: white;
 }
-/*
-.tarjeta{
-    color: #03264C;
-    line-height: 15px;
-    font-size: 1cm;
+.footer{
+    text-align: center;
+    color: #666;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer i{
+    font-size: 30px;
+    color: #1259c3;
+    padding-bottom: 15px;
 }
 
-.tienda{
-    color:#03264C ;
-    line-height: 10px;
-    font-size: 1cm;
-}
-.seguridad{
-    color: #03264C;
-    line-height: 20px;
-    font-size: 1cm;
-}
-*/
 .compra{
     text-align: center;
     font-size:12px;
@@ -87,7 +94,7 @@ main .banner img{
     width: 100%;
     
 }
-.parte{
+.encabezado{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -107,37 +114,56 @@ main .banner img{
     padding: 10px;
 }
 
-.parte .logo{
+.encabezado .logo{
     width: 33%;
 }
 .seccion{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.footer{
+
+
+
+/* login */
+.contenedor{
+    background-color: #ebebeb
+}
+.registro{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    padding: 35px 22px;
+    margin: auto;
 }
-.tarjeta {
-    width: 33%;
+.registro input{
+    color: #3e3e3e;
+    border-style: none;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
-
-.seguridad{
-    width: 33%;
+.registro button{
+    background-color: #2969c9;
+    color: white;
+    width: 100%;
+    margin: 20px 0;
+    border-style: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
 }
-.tienda{
-    width: 33%;
-}
-
 @media (max-width:500px) {
     .listas{
         display: none;
     }
-    .parte .logo{
+    .encabezado .logo{
         width: 50%;
     }
-    .parte .input{
+    .encabezado .input{
         width: 50%;
     }
   
