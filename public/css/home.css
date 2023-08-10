@@ -4,20 +4,17 @@
 }
 
 body {
-    background-color:white;
+    background-color:#ebebeb;
     font-family: 'Roboto', sans-serif;
     color: #312f2f;
     font-size: 12px;
+    
 }
 nav{
     background-color: #EAC926;
 
 }
-#compra{
-    text-align: center;
-    font-size: 12px;
-    
-}
+
 .hambur{
     background-color: #03264C;
     color: aliceblue;
@@ -26,16 +23,20 @@ nav{
     border-radius: 12%;
 }
 #titulares{
-    font-size: 24px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 #precio{
     font-size:18px ;
+    
 }
 #descuento{
-    font-size:16px
+    font-size:14px;
+    color: #39b54a;
 }
 #descripcion{
     font-size: 16px;
+    margin-top: 15px;
 }
 footer{
     text-align: center;
@@ -57,3 +58,22 @@ footer{
     font-size: 1cm;
 }
 
+.compra{
+    text-align: center;
+    font-size:12px;
+}
+main{
+    width: 90%;
+    
+}
+.articulo{
+    margin-bottom: 10px;
+    border: solid 1px #ebebeb;
+    padding: 15px;
+   
+}
+.producto{
+    background-color: white;
+   
+
+}
