@@ -63,7 +63,7 @@ footer{
     font-size:12px;
 }
 main{
-    width: 90%;
+    width: 100%;
     
 }
 .articulo{
@@ -75,5 +75,48 @@ main{
 .producto{
     background-color: white;
    
+}
+main .banner{
+    width: 100%;
 
+}
+main .banner img{
+    width: 100%;
+    
+}
+.parte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.listas{
+    display: flex;
+    justify-content: space-between;
+}
+.listas ul{
+    
+    display: flex;
+    justify-content: flex-start;
+
+}
+.listas ul li{
+    padding: 10px;
+}
+
+.parte .logo{
+    width: 33%;
+}
+
+@media (max-width:500px) {
+    .listas{
+        display: none;
+    }
+    .parte .logo{
+        width: 50%;
+    }
+    .parte .input{
+        width: 50%;
+    }
+  
 }
