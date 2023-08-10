@@ -39,14 +39,17 @@ nav{
     margin-top: 15px;
 }
 footer{
+    background-color: white;
     text-align: center;
     font-size: 12px;
 }
+/*
 .tarjeta{
     color: #03264C;
     line-height: 15px;
     font-size: 1cm;
 }
+
 .tienda{
     color:#03264C ;
     line-height: 10px;
@@ -57,11 +60,11 @@ footer{
     line-height: 20px;
     font-size: 1cm;
 }
-
+*/
 .compra{
     text-align: center;
     font-size:12px;
-}
+} 
 main{
     width: 100%;
     
@@ -105,6 +108,25 @@ main .banner img{
 }
 
 .parte .logo{
+    width: 33%;
+}
+.seccion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    width: 33%;
+}
+
+.seguridad{
+    width: 33%;
+}
+.tienda{
     width: 33%;
 }
 
